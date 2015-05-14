@@ -31,14 +31,23 @@
         <div id="logo"></div>
       </div>
       <div id="main_video">
-        <div class="imageSub"> <!-- Put Your Image Width -->
-           <div class="blackbg" id="playerstatebg">IDLE</div>
-           <div class=label id="playerstate">IDLE</div>
-           <img src="images/reel.jpg" id="video_image">
-           <div id="video_image_overlay"></div>
-           <video id="video_element">
-           </video>
-        </div>
+        <table>
+          <tr>
+            <td>
+              <div class="imageSub"> <!-- Put Your Image Width -->
+                 <div class="blackbg" id="playerstatebg">IDLE</div>
+                 <div class=label id="playerstate">IDLE</div>
+                 <img src="images/reel.jpg" id="video_image">
+                 <div id="video_image_overlay"></div>
+                 <video id="video_element">
+                 </video>
+              </div>
+            </td>
+            <td>
+              <textarea rows="20" cols="70" id="debugmessage"></textarea>
+            </td>
+          </tr>
+        </table>
 
         <div id="media_control">
            <div id="play"></div>
@@ -69,11 +78,6 @@
       </div>
 
       <div id="carousel">
-      </div>
-
-      <div id="footer">
-        <div id="copyright">2014 CastVideos All Rights reserved</div>
-        <div id="footer_language">Language English</div>
       </div>
       <script src="start.js"></script>
 </body>

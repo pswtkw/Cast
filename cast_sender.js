@@ -4,7 +4,7 @@ chrome.cast.media = chrome.cast.media || {};
 chrome.cast.ApiBootstrap_ = function() {
 };
 chrome.cast.ApiBootstrap_.extensionIds_ = "boadgeojelhgndaghljhdicfkmllpafd dliochdbjfkdbacpmhlcpmleaejidimm hfaagokkkhdbgiakmmlclaapfelnkoah fmfcbgogabcbclcofgocippekhfcmgfj enhhojjnijigcajfphajepfemndkmdlo eojlgccfgnjlphjnlopmadngcgmmdgpk".split(" ");
-chrome.cast.ApiBootstrap_.MR_EXTENSION_IDS_ = ["mdpkajclapdndhmcchmhlbnobpppbdfa", "jgemmmdkcmfbomjcnhkehaboplncaohk", "fjhoaacokmgbjemoflkofnenfaiekifl", "ekpaaapppgpmolpcldedioblbkmijaca", "lhkfccafpkdlaodkicmokbmfapjadkij", "ibiljbkambkbohapfhoonkcpcikdglop"];
+chrome.cast.ApiBootstrap_.MR_EXTENSION_IDS_ = ["boadgeojelhgndaghljhdicfkmllpafd", "pnagneolkilgndhdfncjemkdcknbfmhm", "jgemmmdkcmfbomjcnhkehaboplncaohk", "fjhoaacokmgbjemoflkofnenfaiekifl", "ekpaaapppgpmolpcldedioblbkmijaca", "lhkfccafpkdlaodkicmokbmfapjadkij", "ibiljbkambkbohapfhoonkcpcikdglop"];
 chrome.cast.ApiBootstrap_.findInstalledExtension_ = function(callback) {
   __GCast_isChromeBrowser ? (window.navigator.presentation && (chrome.cast.ApiBootstrap_.extensionIds_ = chrome.cast.ApiBootstrap_.extensionIds_.concat(chrome.cast.ApiBootstrap_.MR_EXTENSION_IDS_)), chrome.cast.ApiBootstrap_.findInstalledExtensionHelper_(0, callback)) : callback(null);
 };
